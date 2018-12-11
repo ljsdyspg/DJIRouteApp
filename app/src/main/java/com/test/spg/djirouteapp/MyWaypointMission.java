@@ -487,7 +487,6 @@ public class MyWaypointMission extends FragmentActivity implements TextureView.S
     }
     //开始执行路径飞行任务
     private void startWaypointMission(){
-
         getWaypointMissionOperator().startMission(new CommonCallbacks.CompletionCallback() {
             @Override
             public void onResult(DJIError error) {

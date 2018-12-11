@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class WaypointCoord {
     static int size = 100;
     static float altitude = 3.0f;
-    static float speed = 1.0f;
+    static float speed = 3.0f;
     static double[] coord= new double[size];
     static ArrayList coords = new ArrayList();
 
